@@ -113,4 +113,202 @@ footer{
     margin-right: 150px;
     align-items: center;
 }
- 
+@media screen  and (max-width :600px){
+    #js
+    {
+        background-color: #13366D;
+    }
+     /* css menu */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+#js *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #13366D;
+}
+#js .logo{
+    color: white;
+    size: 30px;
+    font-weight: bold;
+    font-family: 'poppins';
+    font-size: 24px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 5px 10px;
+    }
+header li{
+padding-left: 0px;
+margin-bottom: 40px;
+}
+#js .sect {
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 15px;
+}
+#js .sect li {
+    list-style: none;
+    font-family: 'poppins';
+    margin-bottom: 15px; 
+}
+#js .sect li a {
+    font-weight: bold;
+    text-decoration: none;
+    color : #fff;
+
+}
+#js .signin button{
+    background: none;
+    border: solid 1px white;
+    font-weight: bold;
+    font-family: 'poppins';
+    text-decoration: none;
+    color : white;
+    width: 85px;
+    margin-bottom: 10px;
+    margin-top: 28px;
+}
+#js .signin button:hover{
+    background-color: #555;
+    color: white;
+}
+#js .tryff button{
+    background: white;
+    border: solid 1px #fff;
+    font-weight: bold;
+    font-family: 'poppins';
+    text-decoration: none;
+    color : #13366D;
+    width: 85px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+#js .tryff button:hover{
+    background-color: #13366D;
+    color: #555
+}
+.mobile
+{display: block;}
+/* fin */
+    body{
+        background-color: #0B47A6;
+        color: #FBF7EE;
+    }
+    .logo {
+        background-color: #FBF7EE;
+        padding: 5px 5px;
+        border-radius:10px ;
+        cursor: pointer;
+    
+    }
+    header
+    {
+        position: relative;
+    }
+    .mobile
+    {
+        position: absolute;
+        right: 0px;
+    }
+    .nav_list{
+        display: none;
+    }
+    header div {
+        display: none;
+    }
+    section{
+        width: 100%;
+        height: 100%;
+    }
+    section h1{
+        text-align: center;
+        font-size: 50px;
+        margin:  15px 0 15px 0;
+        color: white;
+    }
+    .info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 30px 50px auto 50px ;
+    
+    }
+    .info .message  {
+    display: flex;
+    flex-direction: column;
+    }
+    .info .message textarea {
+    border-radius: 10px;
+    margin-right: 0;
+    margin-top: 5%;
+}
+footer{
+    background-color: #FBF7EE;
+    color: #0B47A6;
+    margin-top: 55px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px ;
+    margin-right:20px;
+    align-items: center;
+    
+}
+.foot .f1,.f2,.f3 {
+    font-size: 10px;
+    padding: 0 20px 0 20px;
+}  
+}  
+@media screen and (max-width:1300px) {
+    header{
+        padding: 15px 5px 15px 15px;
+    }
+    .nav_list li {
+        font-size: 12px;
+        padding: 0px 0px 0 0;
+    }
+    
+    button{
+        padding: 5px 5px;
+        background-color: #0B47A6;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        border: none;
+        border-radius: 8px;
+        cursor:pointer;
+    }
+    button:hover {
+        background-color: rgb(255, 255, 255);
+        font-weight: bold;
+        color:#0B47A6;
+    }
+   .info{
+      display: flex;
+      flex-direction: column;
+   } 
+   .info .message{
+       flex-direction: column;
+    
+   }
+   .info .message textarea {
+    margin-right: 0;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px ;
+    margin-right: 50px;
+    align-items: center;
+}
+.foot .f1,.f2,.f3 {
+    font-size: 10px;
+    padding: 0 20px 0 20px;
+}  
+
+}
