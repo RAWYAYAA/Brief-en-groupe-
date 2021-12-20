@@ -1,0 +1,364 @@
+body
+{
+    margin: 20px 100px 0px 100px;
+    background-color: #FBF7EE;
+    font-family: 'Karla', sans-serif;
+}
+#js
+{
+    display: none;
+}
+.mobile
+{
+    display: none;
+}
+.check img
+{
+    padding-right: 7px;
+}
+span
+{
+    font-weight: bold;
+    color: black;
+}
+.check span
+{
+    font-weight: normal;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav li
+{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+#login div
+{
+    display: inline;
+    margin: 10px;
+}
+main
+{
+    height: 83vh;
+    align-items: center;
+}
+#formulaire
+{
+    box-sizing: border-box;
+    padding-right: 1%;
+}
+#livre img
+{
+    width: 100%;
+}
+main div
+{
+    width: 50%;
+}
+form
+{
+    width: 80%;
+    margin-bottom: 30px;
+}
+form #text
+{
+    width: 70%;
+}
+form #submit
+{
+    width: 20%;
+}
+.check
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size:10px;
+}
+#flex1
+{
+    align-items: stretch;
+}
+#flex1 div
+{
+    width: 22%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.gray
+{
+    color: gray;
+}
+#flex2
+{
+    align-items: stretch;
+}
+#flex2 div
+{
+    width: 22%;
+    background-color: #FFF3D9;
+    box-sizing: border-box;
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.startup
+{
+    padding-left: 20px;
+    list-style-image: url(image/main.png);
+}
+.startup li
+{
+    padding-bottom: 15px;
+}
+#aside
+{
+    align-self: flex-start;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #13366D;
+}
+h2{
+    color: #13366D;
+    font-size: 45px;
+}
+nav{
+    font-weight: bold;
+}
+.try
+{
+    background-color: #0B48A8;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0px 6px 6px black;
+}
+p
+{
+    color: #A2A2A2;
+}
+input
+{
+    height: 40px;
+}
+.agra
+{
+    background-color: #13366D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    border-radius: 30px;
+}
+footer p{
+    font-weight: bold;
+    color: #13366D;
+}
+footer p span
+{
+    color: red;
+}
+.tff{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tff:hover
+{
+    background-color: #13366D;
+    color: white;
+    font-weight: bold;
+}
+.relative
+{
+    position: relative;
+}
+.fin
+{
+    position: absolute;
+    bottom: 0;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #13366D;
+}
+
+@media(max-width:740px){
+    #js
+    {
+        background-color: #13366D;
+    }
+    body
+    {
+        margin: 10px 5px 0px 5px;
+        background-color: white;
+    }
+    header
+    {
+        background-color: #FBF7EE;
+        flex-direction: row;
+    }
+    .desktop
+    {
+        display: none;
+    }
+    .flex
+    {
+        flex-direction: column;
+    }
+    #menu
+    {
+        flex-direction: row;
+    }
+    .mobile
+    {
+        display: block;
+    }
+    .mobile svg
+    {
+        width: 100%;
+        color: red;
+    }
+    main.flex
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    main > div
+    {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    h2
+    {
+        font-size: 35px;
+    }
+    form
+    {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .check
+    {
+        margin: auto;
+    }
+    #flex1
+    {
+        align-items: center;
+    }
+    #flex1 > div
+    {
+        width: 90%;
+        margin: 10px;
+    }
+    #flex2
+    {
+        align-items: center;
+    }
+    #flex2 > div
+    {
+        width: 90%;
+        margin: 10px;
+    }
+    footer p
+    {
+        text-align: center;
+    }
+    /* css menu */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+#js *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #13366D;
+}
+#js .logo{
+    color: white;
+    size: 30px;
+    font-weight: bold;
+    font-family: 'poppins';
+    font-size: 24px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 5px 10px;
+    }
+header li{
+padding-left: 0px;
+margin-bottom: 40px;
+}
+#js .sect {
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 15px;
+}
+#js .sect li {
+    list-style: none;
+    font-family: 'poppins';
+    margin-bottom: 15px; 
+}
+#js .sect li a {
+    font-weight: bold;
+    text-decoration: none;
+    color : #fff;
+
+}
+#js .signin button{
+    background: none;
+    border: solid 1px white;
+    font-weight: bold;
+    font-family: 'poppins';
+    text-decoration: none;
+    color : white;
+    width: 85px;
+    margin-bottom: 10px;
+    margin-top: 28px;
+}
+#js .signin button:hover{
+    background-color: #555;
+    color: white;
+}
+#js .tryff button{
+    background: white;
+    border: solid 1px #fff;
+    font-weight: bold;
+    font-family: 'poppins';
+    text-decoration: none;
+    color : #13366D;
+    width: 85px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+#js .tryff button:hover{
+    background-color: #13366D;
+    color: #555
+}
+
+/* fin */
+}
