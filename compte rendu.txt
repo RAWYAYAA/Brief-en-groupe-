@@ -1,0 +1,26 @@
+               compte rendu:
+	Date:20/12/2021
+	Formatrice:HANANE JABANE 
+	Durée du Brief:du 15/12/2021
+	au 20/12/2021
+équipe:JUBAN CODE
+membres:  Abderahim Agra
+           Moundir Jabir
+           Oussama Souayri
+       	   Soumia El Yakni
+   	   Raouya El Yaagoubi
+Scrum Master:
+	Raouya El Yaagoubi
+on a commencé par la comprehension du cahier de charge et de réaliser un 
+Tableau Kanban sur GitHub(repartition des taches).on a essayé de bien repartir les taches d'une maniére que tous les membres
+peuvent coder et designer.
+on a essayé de determiner un deadline pour achever nos taches,et a chaque fois quelqu'un termine on discute le resultat en groupe
+et on prend les remarques de chacun en considération,
+et a chaque fois une tache  est terminée on la glisse vers la carte de "terminé" sur Kanban.
+	les difficultés qu'on a affronté:
+	-de travailler avec le 'Work Flow'
+	
+ etant le groupe de JUBAN CODE tous les membres ont été sérieux et respectueux au niveau du respect entre nous et le respect du temp  et de chaque tache.
+le travail sur le Brief était plein d'enthousiame et du challenge entre nous .
+
+
